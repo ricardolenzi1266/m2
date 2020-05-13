@@ -1,0 +1,110 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+}
+div#cabecalho {
+    background-color: rgba(0,0,0,0.8);
+    width: calc(100% - 80px);
+    height: 6vh;
+    position: relative;
+    padding: 0 40px;
+    text-align: center;
+}
+img.logotipo-ux {
+    position: absolute;
+    height: 70%;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ul#menu {
+    /* position: relative; */
+    display: inline-block;
+    list-style: none;
+    line-height: 7vh;
+    /* margin: 0 auto; */
+}
+ul#menu li {
+    float: left;
+    margin: 0 20px;
+}
+ul#menu li a {
+    text-decoration: none;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    color: #ddd;
+    text-transform: uppercase;
+}
+ul#menu li.barra {
+    margin: 0px;
+}
+div#conteudo {
+    height: calc(85vh - 60px);
+    width: calc(100% - 200px);
+    padding: 20px 100px;
+}
+div#conteudo h1 {
+    font-size: 28px;
+    font-family: Georgia,Times,Times New Roman,serif;
+}
+div#conteudo div.linha-horizontal {
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+}
+div#conteudo div#posts {
+    width: calc(100% - 260px);
+    padding: 0 130px;
+    height: 69.32735426vh;
+}
+div#conteudo div#posts div.materia {
+    /* background-color: green; */
+    height: 30%;
+    margin: 1.5% 0 3% 0;
+    width: 100%;
+    position: relative;
+}
+div#conteudo div#posts div.materia p.titulo {
+    font-size: 16px;
+    color: #aaa;
+    text-transform: uppercase;
+}
+div#conteudo div#posts div.materia p.subtitulo {
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+div#conteudo div#posts div.materia p.descricao {
+    color: #aaa;
+    width: 70%;
+}
+div#conteudo div#posts div.materia p.autor {
+    margin: 20px 0 2px 0;
+    font-size: 15px;
+}
+div#conteudo div#posts div.materia p.data {
+    font-size: 15px;
+    color: #aaa;
+}
+div#conteudo div#posts div.materia img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+div#rodape {
+    background-color: rgba(0,0,0,0.8);
+    width: calc(100% - 200px);
+    height: calc(12vh - 20px);
+    position: absolute;
+    bottom: 0;
+    padding: 10px 100px;
+}
+div#rodape img {
+    height: 50%;
+}
